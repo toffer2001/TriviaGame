@@ -1,0 +1,86 @@
+
+p.answers {
+	margin: 5px;
+	display: inline;
+
+}
+
+#wrapper {
+	background: linear-gradient(to right bottom, #552729, #000000);
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 0px;
+	padding: 0px 40px 0px 40px;
+}
+
+#subwrapper {
+	text-align: left;
+	margin-left: 40px;
+	background-image: url(../images/mickey2.jpg);
+	background-repeat: no-repeat;
+	height: 1200px;
+	padding-left: 20px;
+}
+
+#counter {
+	color: red;
+}
+
+body {
+	background: linear-gradient(to right bottom, #552729, #000000);
+	background-color: #211112;
+	
+	
+}
+
+
+h1 {
+	font-family: 'Pacifico', cursive, 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: white;
+	margin-top: 0px;
+}
+
+h2, h3 {
+	font-family: 'Baloo Chettan', cursive, 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: white;
+}
+
+input[type=radio] {
+	padding-left: 20px;
+}
+
+#radio {
+	padding-left: 20px;
+}
+
+
+.answers {
+	font-family: 'Asap', sans-serif, 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: white;
+	
+}
+
+@media screen and (max-width: 1600px) {
+body {
+		width: 100%;
+		max-width: 1600px;
+		background-size: 1600px 1200px;
+	}	
+
+	#wrapper {
+		width: 100%;
+		max-width: 1600px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	background-size: 800px 600px;
+
+	#wrapper {
+		width: 100%;
+		max-width: 800px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+}
