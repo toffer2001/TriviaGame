@@ -182,7 +182,7 @@ var game = {
 			$('#subwrapper').append("<h3>Correct Answers: " + this.correct+"</h3>");
 			$('#subwrapper').append("<h3>Incorrect Answers: " + this.incorrect+"</h3>");
 			$('#subwrapper').append("<h3>Unanswered: " +(questions.length-(this.incorrect+this.correct))+"</h3>");
-			$('#subwrapper').css("background-image", "url(assets/images/mickey-congrats.jpg)");
+			$('#subwrapper').css('background-image', 'url(assets/images/mickey-congrats.jpg)');
 			
 		}
 }
