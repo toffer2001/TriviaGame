@@ -8,7 +8,6 @@ p.answers {
 #wrapper {
 	background: linear-gradient(to right bottom, #552729, #000000);
 	text-align: center;
-	margin: 0 auto;
 	margin-top: 0px;
 	padding: 0px 40px 0px 40px;
 }
@@ -20,6 +19,9 @@ p.answers {
 	background-repeat: no-repeat;
 	height: 1200px;
 	padding-left: 20px;
+	padding-right: 20px;
+	background-size: cover;
+	margin: 0 auto;
 }
 
 #counter {
@@ -60,21 +62,37 @@ input[type=radio] {
 	
 }
 
-@media screen and (max-width: 1600px) {
-body {
-		width: 100%;
-		max-width: 1600px;
-		background-size: 1600px 1200px;
-	}	
+@media screen and (max-width: 1200px) {
+
+	#subwrapper {
+	text-align: left;
+	background-image: url(../images/mickey2.jpg);
+	background-repeat: no-repeat;
+	height: 1200px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin: 0 auto;
+	background-size: 1200px 800px;
+}
 
 	#wrapper {
 		width: 100%;
-		max-width: 1600px;
+		max-width: 1200px;
 	}
 }
 
 @media screen and (max-width: 768px) {
-	background-size: 800px 600px;
+	
+	#subwrapper {
+	text-align: left;
+	background-image: url(../images/mickey2.jpg);
+	background-repeat: no-repeat;
+	height: 1200px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin: 0 auto;
+	background-size: 768px 600px;
+}
 
 	#wrapper {
 		width: 100%;
