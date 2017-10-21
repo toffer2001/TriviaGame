@@ -5,6 +5,32 @@ p.answers {
 
 }
 
+button {
+/*	border-radius: 50%;*/
+	background-color: #4CAF50; /* Green */
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	color: #fff;
+	text-shadow: -2px 2px #346392;
+	background-image: linear-gradient(top, #6496c8, #346392);
+	box-shadow: inset 0 0 0 1px #27496d;
+	border: none;
+	border-radius: 15px;
+}
+
+button.hover {
+  box-shadow: inset 0 0 0 1px #27496d,0 5px 15px #193047;
+}
+
+button.active {
+  box-shadow: inset 0 0 0 1px #27496d,inset 0 5px 30px #193047;
+}
+
 #wrapper {
 	background: linear-gradient(to right bottom, #552729, #000000);
 	text-align: center;
@@ -96,9 +122,26 @@ input[type=radio] {
 
 	#wrapper {
 		width: 100%;
-		max-width: 800px;
+		max-width: 768px;
 	}
 }
 
 @media screen and (max-width: 640px) {
+
+	#subwrapper {
+	text-align: left;
+	background-image: url(../images/mickey2.jpg);
+	background-repeat: no-repeat;
+	height: 1200px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin: 0 auto;
+	background-size: 640px 300px;
+}
+
+	#wrapper {
+		width: 100%;
+		max-width: 640px;
+	}
+}
 }
